@@ -1,0 +1,9 @@
+.header {
+    height: 80px;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: 10px solid #19A9B8;*/
+}
