@@ -9,8 +9,22 @@
 
 }
 
-.icon {
-    width: 300px;
+.imgContainer {
+    width: 100%;
     height: 300px;
     background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.button {
+    background-color: darkgrey;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
