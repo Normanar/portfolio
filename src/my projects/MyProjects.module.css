@@ -2,3 +2,25 @@
     min-height: 100vh;
     background-color: #6cffdb;
 }
+
+.projectsContainer {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid green;
+}
+
+.title{
+    background-color: gray;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
