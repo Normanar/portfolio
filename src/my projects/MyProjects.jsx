@@ -17,7 +17,9 @@ export function MyProjects() {
     return (
         <div className={style.projectsBlock}>
             <div className={style.projectsContainer}>
-                <h2 className={style.title}>My projects</h2>
+                <div className={style.title}>
+                    <h2>My projects</h2>
+                </div>
                 <div className={style.projects}>
                     <Project title = {descriptionMyProjects.socialNetwork.title}
                              description = {descriptionMyProjects.socialNetwork.description}

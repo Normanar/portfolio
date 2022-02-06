@@ -1,6 +1,7 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #6cffdb;
+    /*min-height: 100vh;*/
+    background-color: #1f1f20;
+    padding: 50px 0 50px 0;
 }
 
 .projectsContainer {
@@ -15,7 +16,19 @@
 }
 
 .title{
-    background-color: gray;
+    /*background-color: gray;*/
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #22cd6f;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin: 0;
 }
 
 .projects {
@@ -23,4 +36,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1129px) {
+    .projects {
+        justify-content: center;
+    }
 }
