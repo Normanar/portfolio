@@ -1,7 +1,8 @@
 .projectsBlock {
     /*min-height: 100vh;*/
-    background-color: #1f1f20;
-    padding: 50px 0 50px 0;
+    background-color: #070809;
+    padding-bottom: 25px;
+    border: 1px solid green;
 }
 
 .projectsContainer {
@@ -12,30 +13,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
-.title{
-    /*background-color: gray;*/
-    margin-bottom: 30px;
-}
+/*.title{*/
+/*    !*background-color: gray;*!*/
+/*    margin-bottom: 30px;*/
+/*}*/
 
-.title h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 44px;
-    line-height: 55px;
-    text-transform: uppercase;
-    color: #22cd6f;
-    letter-spacing: -2px;
-    font-weight: 600;
-    margin: 0;
-}
+/*.title h2 {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-size: 44px;*/
+/*    line-height: 55px;*/
+/*    text-transform: uppercase;*/
+/*    color: #22cd6f;*/
+/*    letter-spacing: -2px;*/
+/*    font-weight: 600;*/
+/*    margin: 0;*/
+/*}*/
 
 .projects {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 1129px) {

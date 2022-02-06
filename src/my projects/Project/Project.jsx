@@ -8,8 +8,8 @@ export function Project (props) {
             <div className={style.imgContainer}>
                 <a className={style.button}>Watch</a>
             </div>
-            <span>{props.title}</span>
-            <span>{props.description}</span>
+            <h5 className={style.projectTitle}>{props.title}</h5>
+            <span className={style.description}>{props.description}</span>
         </div>
     )
 }

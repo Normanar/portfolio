@@ -1,12 +1,16 @@
 .projectBlock {
     border: 1px solid;
-    background-color: #ffaa00;
+    background-color: #070809;
     width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: all .5s;
+}
 
+.projectBlock:hover {
+    background-color: #131617;
 }
 
 .imgContainer {
@@ -25,6 +29,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.projectTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #08d665;
+    margin: 12px 0;
+    line-height: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
 }
 
 
