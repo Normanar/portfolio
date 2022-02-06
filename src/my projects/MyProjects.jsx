@@ -2,6 +2,8 @@ import React from "react";
 import style from "./MyProjects.module.css"
 import {Project} from "./Project/Project";
 import {Title} from "../component/title/Title";
+import social from "../assets/images/social_network.jpg"
+import todo from "../assets/images/todolist.jpg"
 
 const descriptionMyProjects = {
     socialNetwork : {
@@ -15,6 +17,15 @@ const descriptionMyProjects = {
 }
 
 export function MyProjects() {
+
+    const socialImg = {
+        backgroundImage : `url(${social})`
+    }
+
+    const todoImg = {
+        backgroundImage : `url(${todo})`
+    }
+
     return (
         <div className={style.projectsBlock}>
             <div className={style.projectsContainer}>
@@ -25,9 +36,11 @@ export function MyProjects() {
                 <div className={style.projects}>
                     <Project title = {descriptionMyProjects.socialNetwork.title}
                              description = {descriptionMyProjects.socialNetwork.description}
+                             style = {socialImg}
                     />
                     <Project title = {descriptionMyProjects.toDoList.title}
                              description = {descriptionMyProjects.toDoList.description}
+                             style={todoImg}
                     />
                 </div>
             </div>
