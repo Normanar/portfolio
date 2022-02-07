@@ -1,6 +1,7 @@
 .contactsBlock {
     /*min-height: 100vh;*/
-    background-color: #9869AE;
+    background-color: #070809;
+    padding-bottom: 25px;
 }
 
 .contactsContainer {
@@ -36,12 +37,10 @@
 
 .button {
     background-color: darkgrey;
-    width: 140px;
-    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    padding: 10px 20px;
 }
 
 .name {

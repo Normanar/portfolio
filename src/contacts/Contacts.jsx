@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./Contacts.module.css"
+import {Title} from "../component/title/Title";
 
 export function Contacts() {
     return (
         <div className={style.contactsBlock}>
             <div className={style.contactsContainer}>
-                <h2 className={style.name}>Contacts</h2>
+                <Title text={"Contacts"}/>
                 <form className={style.form}>
                     <input type={"text"}/>
                     <input type={"text"}/>
