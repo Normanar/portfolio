@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./SkillOne.module.css"
+import {TitleSection} from "../../component/titleSection/TitleSection";
 
 export function SkillOne(props) {
     return (
@@ -7,8 +8,8 @@ export function SkillOne(props) {
             <div className={style.icon}>
 
             </div>
-            <h3>{props.title}</h3>
-            <span>{props.description}</span>
+            <TitleSection text={props.title}/>
+            <span className={style.descriptionSkill}>{props.description}</span>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Project.module.css"
+import {TitleSection} from "../../component/titleSection/TitleSection";
 
 
 export function Project (props) {
@@ -8,7 +9,7 @@ export function Project (props) {
             <div className={style.imgContainer} style={props.style}>
                 <a className={style.button}>Watch</a>
             </div>
-            <h5 className={style.projectTitle}>{props.title}</h5>
+            <TitleSection text={props.title}/>
             <span className={style.description}>{props.description}</span>
         </div>
     )

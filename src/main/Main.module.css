@@ -1,6 +1,7 @@
 .mainBlock {
     height: 100vh;
-    background-color: indianred;
+    background-color: #070809;
+    border: 1px solid white;
 }
 
 .text {
@@ -22,5 +23,6 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #19A9B8;
+    background-color: #070809;
+    border: 1px solid white;
 }
