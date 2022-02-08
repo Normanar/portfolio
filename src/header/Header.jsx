@@ -6,7 +6,9 @@ import {Nav} from "../nav/Nav";
 export function Header() {
     return (
         <div className={style.header}>
-            <Nav/>
+            <div className={style.headerContainer}>
+                <Nav/>
+            </div>
         </div>
     )
 }

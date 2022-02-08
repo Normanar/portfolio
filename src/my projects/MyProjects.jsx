@@ -43,6 +43,10 @@ export function MyProjects() {
                              description = {descriptionMyProjects.toDoList.description}
                              style={todoImg}
                     />
+                    <Project title = {descriptionMyProjects.toDoList.title}
+                             description = {descriptionMyProjects.toDoList.description}
+                             style={todoImg}
+                    />
                 </div>
             </div>
         </div>

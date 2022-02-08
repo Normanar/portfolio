@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./SkillOne.module.css"
+import style from "./SkillOne.module.scss"
 import {TitleSection} from "../../component/titleSection/TitleSection";
 
 export function SkillOne(props) {
