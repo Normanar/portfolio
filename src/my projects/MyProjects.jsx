@@ -3,7 +3,6 @@ import style from "./MyProjects.module.scss"
 import {Project} from "./Project/Project";
 import {Title} from "../component/title/Title";
 import social from "../assets/images/social_network.jpg"
-import social2 from "../assets/images/social_network2.jpg"
 import todo from "../assets/images/todolist.jpg"
 
 const descriptionMyProjects = {
