@@ -35,28 +35,28 @@
     width: 100%;
     font-size: 17px;
     background-color: transparent;
-    color: white;
+    color: #fff;
     border: 1px solid #5d5c60;
     outline: none;
     padding: 10px;
     margin: 15px 0;
 }
 
-.button {
-    /*background-color: darkgrey;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #08d665;
-    outline: none;
-    color: #070809;
-    font-family: 'Rubik', sans-serif;
-    line-height: 27px;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 25px 0;
-}
+/*.button {*/
+/*    !*background-color: darkgrey;*!*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 10px 20px;*/
+/*    background-color: #08d665;*/
+/*    outline: none;*/
+/*    color: #070809;*/
+/*    font-family: 'Rubik', sans-serif;*/
+/*    line-height: 27px;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*    margin: 25px 0;*/
+/*}*/
 
 .name {
     background-color: greenyellow;
@@ -66,5 +66,24 @@
     .form {
         width: 97%;
     }
+}
+
+.buttonNew {
+    background-color: #08d665;
+    padding: 15px;
+    border: 1px solid #08d665;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0 25px 0;
+    color: #fff;
+    transition: 0.4s;
+    font-family: 'Rubik', sans-serif;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.buttonNew:hover {
+    background-color: transparent;
+    color: #08d665;
 }
 

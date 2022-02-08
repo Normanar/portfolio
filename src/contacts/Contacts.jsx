@@ -16,12 +16,13 @@ export function Contacts() {
                 <form className={style.form}>
                     <input type={"text"} placeholder={"Name"}/>
                     <input type={"text"} placeholder={"Email"}/>
-                    <textarea placeholder={"Message"}/>
+                    <textarea placeholder={"Message"} rows={4}/>
                 </form>
                 {/*<a className={style.button}>*/}
                 {/*    Send*/}
                 {/*</a>*/}
-                <button type={"submit"} className={style.button}>SEND MESSAGE</button>
+                {/*<button type={"submit"} className={style.button}>SEND MESSAGE</button>*/}
+                <div className={style.buttonNew}>SEND MESSAGE</div>
             </div>
         </div>
     )
