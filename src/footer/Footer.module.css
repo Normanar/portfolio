@@ -15,25 +15,28 @@
     text-align: center;
 }
 
-.square {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    margin-bottom: 10px;
-    margin-right: 20px;
+.links {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-.square_end {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    margin-bottom: 10px;
+.links svg {
+    fill : #fff
 }
 
-.squareBlock {
+.links:hover svg {
+    fill: #08d665;
+}
+
+
+.linksBlock {
     display: flex;
 }
 
 .rights {
-    color: #08d665;
+    color: #fff;
 }

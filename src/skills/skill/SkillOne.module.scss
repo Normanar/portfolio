@@ -9,10 +9,20 @@
     text-align: center;
     padding: 20px;
     margin-bottom: 25px;
+    &:hover .icon svg {
+        transform: rotate(360deg);
+        transition: all 1.2s ease;
+    }
     .icon {
         width: 60px;
         height: 60px;
-        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        & svg{
+            fill: #08d665;
+        }
     }
     .descriptionSkill {
         font-size: 15px;

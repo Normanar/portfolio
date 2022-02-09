@@ -1,5 +1,5 @@
 .mainBlock {
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #070809;
     border: 1px solid white;
 }
@@ -25,4 +25,17 @@
     flex-wrap: wrap;
     background-color: #070809;
     border: 1px solid white;
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 820px){
+    .container {
+        justify-content: space-around;
+    }
+
+    .photo {
+        width: 280px;
+        height: 380px;
+        margin-top: 50px;
+    }
 }

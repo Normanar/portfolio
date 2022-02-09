@@ -2,35 +2,36 @@ import React from "react";
 import style from "./Skills.module.scss"
 import {SkillOne} from "./skill/SkillOne";
 import {Title} from "../component/title/Title";
+import {
+    DiJavascript,
+    GrReactjs,
+    IoLogoCss3,
+    SiRedux,
+    SiTypescript,
+    TiHtml5
+} from "react-icons/all";
 
-const description = {
-    react: "Ui layer",
-    redux: "BLL layer",
-    typeScript: "Programming language",
-    js: "Programming language",
-    css: "Cascading Style Sheets",
-    html: "HyperText Markup Language",
-}
+const sizeIcon = "100px"
+
+const description = [
+    {name: "react", about: "Ui layer", icon: <GrReactjs size={sizeIcon}/>},
+    {name: "redux", about: "BLL layer", icon: <SiRedux size={sizeIcon}/>},
+    {name: "typeScript", about: "Programming language", icon: <SiTypescript size={sizeIcon}/>},
+    {name: "js", about: "Programming language", icon: <DiJavascript size={sizeIcon}/>},
+    {name: "css", about: "Cascading Style Sheets", icon: <IoLogoCss3 size={sizeIcon}/>},
+    {name: "html", about: "HyperText Markup Language", icon: <TiHtml5 size={sizeIcon}/>},
+
+]
 
 export function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={style.skillsContainer}>
-                {/*<h2 className={style.title}>Skills</h2>*/}
                 <Title text={"Skills"}/>
                 <div className={style.skills}>
-                    <SkillOne title={'React'}
-                              description={description.react}/>
-                    <SkillOne title={'Redux'}
-                              description={description.redux}/>
-                    <SkillOne title={'TypeScript'}
-                              description={description.typeScript}/>
-                    <SkillOne title={'JavaScript'}
-                              description={description.js}/>
-                    <SkillOne title={'CSS'}
-                              description={description.css}/>
-                    <SkillOne title={'HTML'}
-                              description={description.html}/>
+                    {description.map( n => {
+                        return <SkillOne title={n.name} description={n.about} icon={n.icon}/>
+                    })}
                 </div>
             </div>
         </div>
