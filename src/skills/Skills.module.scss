@@ -1,6 +1,5 @@
 .skillsBlock {
     background-color: #070809;
-    border: 1px solid blueviolet;
     .skillsContainer {
         height: 100%;
         width: 80%;
@@ -9,7 +8,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        border: 1px solid green;
         .skills {
             width: 100%;
             display: flex;
