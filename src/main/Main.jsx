@@ -3,6 +3,7 @@ import style from "./Main.module.scss"
 import avatar from '../assets/images/ava2.png'
 import Typewriter from "typewriter-effect";
 import {Fade} from 'react-awesome-reveal';
+import {StarSky} from "./StarSky";
 
 
 export function Main() {
@@ -10,6 +11,9 @@ export function Main() {
         <div className={style.mainBlock} id={"main"}>
             <Fade direction={"left"} delay={500}>
                 <div className={style.container}>
+                    <div className={style.sky}>
+                    <StarSky/>
+                    </div>
                     <div className={style.text}>
                         <Typewriter
                             options={{
