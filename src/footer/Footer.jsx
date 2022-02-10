@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Footer.module.css"
+import style from "./Footer.module.scss"
 import {TitleSection} from "../component/titleSection/TitleSection";
 import { AiOutlineGithub,FaTelegramPlane,AiFillLinkedin} from "react-icons/all";
 
@@ -12,7 +12,6 @@ export function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={style.footerContainer}>
-                {/*<h2 style={{backgroundColor: "white"}}>Arman Alimov</h2>*/}
                 <TitleSection text={"Arman Alimov"}/>
                 <div className={style.linksBlock}>
                     <a className={style.links} href={linkGithub} target={"_blank"} rel="noreferrer">

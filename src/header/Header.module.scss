@@ -1,0 +1,22 @@
+@import "../common/style/sass/variables";
+
+.header {
+  height: 80px;
+  background-color: $bgColor;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  .headerContainer {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+

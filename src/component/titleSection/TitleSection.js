@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./TitleSection.module.css"
+import style from "./TitleSection.module.scss"
 
 export function TitleSection(props) {
     return (

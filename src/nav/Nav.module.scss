@@ -1,0 +1,23 @@
+@import "../common/style/sass/variables";
+
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    a {
+
+        font-size: 16px;
+        color: $headerColor;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        &:hover {
+            color: #08d665;
+            text-decoration: none;
+        }
+    }
+    .active {
+        color: $primaryColor;
+    }
+
+}

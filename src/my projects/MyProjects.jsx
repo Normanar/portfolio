@@ -31,7 +31,7 @@ const descriptionMyProjects = [
 export function MyProjects() {
 
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} id={"projects"}>
             <div className={style.projectsContainer}>
                 <Title text={"My projects"}/>
                 <div className={style.projects}>

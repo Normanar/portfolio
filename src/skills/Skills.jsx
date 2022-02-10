@@ -25,7 +25,7 @@ const description = [
 
 export function Skills() {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={"skills"}>
             <div className={style.skillsContainer}>
                 <Title text={"Skills"}/>
                 <div className={style.skills}>
