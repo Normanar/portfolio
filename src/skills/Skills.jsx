@@ -10,6 +10,7 @@ import {
     SiTypescript,
     TiHtml5
 } from "react-icons/all";
+import {Fade} from 'react-awesome-reveal';
 
 const sizeIcon = "100px"
 
@@ -26,14 +27,16 @@ const description = [
 export function Skills() {
     return (
         <div className={style.skillsBlock} id={"skills"}>
-            <div className={style.skillsContainer}>
-                <Title text={"Skills"}/>
-                <div className={style.skills}>
-                    {description.map( n => {
-                        return <SkillOne title={n.name} description={n.about} icon={n.icon}/>
-                    })}
+            <Fade direction={"left"} delay={500}>
+                <div className={style.skillsContainer}>
+                    <Title text={"Skills"}/>
+                    <div className={style.skills}>
+                        {description.map(n => {
+                            return <SkillOne title={n.name} description={n.about} icon={n.icon}/>
+                        })}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     )
 }
