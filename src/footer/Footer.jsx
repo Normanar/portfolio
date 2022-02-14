@@ -21,7 +21,7 @@ export function Footer() {
                         <FaTelegramPlane size={"40px"}/>
                     </a>
                     <a className={style.links} href={linkLinkedin} target={"_blank"} rel="noreferrer">
-                        <AiFillLinkedin size={"40px"}/>
+                        <AiFillLinkedin size={"40px"} fill={"red"}/>
                     </a>
                 </div>
                 <div className={style.rights}>© 2021 All rights reserved</div>
