@@ -24,7 +24,7 @@ const descriptionMyProjects = [
     {
         title: "Todolist",
         style: todoImg,
-        link: "https://normanar.github.io/todov1",
+        link: "https://normanar.github.io/todolist",
         description: "React, Redux, Typescript, Material UI - project"
     },
 ]
