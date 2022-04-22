@@ -5,7 +5,6 @@ import Typewriter from "typewriter-effect";
 import {Fade} from 'react-awesome-reveal';
 import {StarSky} from "./StarSky";
 
-
 export function Main() {
     return (
         <div className={style.mainBlock} id={"main"}>
