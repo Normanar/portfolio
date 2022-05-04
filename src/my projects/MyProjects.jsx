@@ -5,6 +5,7 @@ import {Title} from "../component/title/Title";
 import social from "../assets/images/social_network.jpg"
 import todo from "../assets/images/todolist.jpg"
 import fight from "../assets/images/fight.png"
+import ecom from "../assets/images/ecom.png"
 import {Fade} from 'react-awesome-reveal';
 
 const socialImg = {
@@ -17,6 +18,10 @@ const todoImg = {
 
 const fightImg = {
     backgroundImage: `url(${fight})`
+}
+
+const ecomImg = {
+    backgroundImage: `url(${ecom})`
 }
 
 const descriptionMyProjects = [
@@ -37,6 +42,12 @@ const descriptionMyProjects = [
         style: fightImg,
         link: "https://fighting-club.netlify.app/",
         description: "JS, CSS, HTML, Canvas Graphics"
+    },
+    {
+        title: "E-commerce store",
+        style: ecomImg,
+        link: "https://ecom-store-stripe.vercel.app/",
+        description: "NextJS, Stripe JS, CSS. For test payment you can use: card 4242 4242 4242 4242, 04/24, CVV 424"
     },
 ]
 
